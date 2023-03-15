@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  background-image: url('https://cutewallpaper.org/23/simple-nature-wallpaper/3194412460.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 4rem;
+  margin-top: -20rem;
+  font-weight: normal;
+  justify-content: center;
+}
+
+.countdown-conatiner{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.big-text{
+  font-size: 6rem;
+  margin: 0 2rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.countdown-el{
+  text-align: center;
+  font-weight: bold;
+}
+
+.countdown-el span{
+  font-size: 1.5rem;
+}
